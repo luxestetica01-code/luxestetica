@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lux Estética Marista</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdfaf5;
+      color: #4a3b2a;
+    }
+    header {
+      background-color: #e6d5b8;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #b8860b;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    .section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    .section h2 {
+      text-align: center;
+      color: #b8860b;
+      margin-bottom: 30px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fffaf0;
+      border: 1px solid #e0c98d;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+      text-align: center;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #b8860b;
+    }
+    .card p {
+      margin: 5px 0 10px;
+    }
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 10px;
+      border: 2px solid #e0c98d;
+    }
+    .card a {
+      display: inline-block;
+      background: #25d366;
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .card a:hover {
+      background: #1ebc57;
+    }
+    .reviews {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .review-card {
+      background: #fffaf0;
+      border: 1px solid #e0c98d;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .review-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 10px;
+      border: 2px solid #e0c98d;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #e6d5b8;
+      color: #4a3b2a;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+      padding: 12px 18px;
+      border-radius: 50px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      transition: background 0.3s;
+    }
+    .whatsapp:hover {
+      background: #1ebc57;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bem-vinda à LUX ESTÉTICA MARISTA</h1>
+    <p>Cuidando da sua beleza com carinho e excelência</p>
+  </header>
+
+  <section class="section">
+    <h2>Meus Serviços</h2>
+    <div class="services">
+      <div class="card">
+        <img src="imagens/design_sobrancelha.jpg" alt="Design de Sobrancelha">
+        <h3>Design de Sobrancelha</h3>
+        <p>R$ 75,00</p>
+        <a href="https://wa.me/5562999978684?text=Olá!%20Quero%20agendar%20Design%20de%20Sobrancelha">Agendar</a>
+      </div>
+      <div class="card">
+        <img src="imagens/coloracao_henna.jpg" alt="Coloração ou Henna">
+        <h3>Coloração ou Henna</h3>
+        <p>R$ 60,00</p>
+        <a href="https://wa.me/5562999978684?text=Olá!%20Quero%20agendar%20Coloração%20ou%20Henna">Agendar</a>
+      </div>
+      <div class="card">
+        <img src="imagens/brow_lamination.jpg" alt="Brow Lamination">
+        <h3>Brow Lamination</h3>
+        <p>R$ 150,00</p>
+        <a href="https://wa.me/5562999978684?text=Olá!%20Quero%20agendar%20Brow%20Lamination">Agendar</a>
+      </div>
+      <div class="card">
+        <img src="imagens/buco.jpg" alt="Buço">
+        <h3>Buço</h3>
+        <p>R$ 23,00</p>
+        <a href="https://wa.me/5562999978684?text=Olá!%20Quero%20agendar%20Buço">Agendar</a>
+      </div>
+      <div class="card">
+        <img src="imagens/queixo.jpg" alt="Queixo">
+        <h3>Queixo</h3>
+        <p>R$ 10,00</p>
+        <a href="https://wa.me/5562999978684?text=Olá!%20Quero%20agendar%20Queixo">Agendar</a>
+      </div>
+      <div class="card">
+        <img src="imagens/rosto_completo.jpg" alt="Rosto Completo">
+        <h3>Rosto Completo</h3>
+        <p>R$ 80,00</p>
+        <a href="https://wa.me/5562999978684?text=Olá!%20Quero%20agendar%20Rosto%20Completo">Agendar</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Avaliações</h2>
+    <div class="reviews">
+      <div class="review-card">
+        <img src="https://via.placeholder.com/400x150?text=Avaliação+1" alt="Avaliação 1">
+        <p>Link ou print da avaliação 1</p>
+      </div>
+      <div class="review-card">
+        <img src="https://via.placeholder.com/400x150?text=Avaliação+2" alt="Avaliação 2">
+        <p>Link ou print da avaliação 2</p>
+      </div>
+      <div class="review-card">
+        <img src="https://via.placeholder.com/400x150?text=Avaliação+3" alt="Avaliação 3">
+        <p>Link ou print da avaliação 3</p>
+      </div>
+    </div>
+    <p style="text-align:center; margin-top:15px; font-style:italic;">Aqui você pode adicionar os links e prints das avaliações do Google ✨</p>
+  </section>
+
+  <section class="section">
+    <h2>Sobre Mim</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      Sou especialista em estética, apaixonada por realçar a beleza natural de cada cliente.
+      Ofereço atendimentos personalizados, garantindo cuidado, conforto e resultados incríveis.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 - Todos os direitos reservados | LUX ESTÉTICA MARISTA</p>
+  </footer>
+
+  <a href="https://wa.me/5562999978684" target="_blank" class="whatsapp">💬 Fale comigo</a>
+</body>
+</html>
